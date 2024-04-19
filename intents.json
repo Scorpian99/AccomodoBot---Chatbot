@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "I'm here to assist with finding rental properties such as houses, apartments, condos, and more. Whether you're looking for a cozy studio or a spacious family home, I can help you discover available rental options in your desired location. Feel free to let me know your preferences, and I'll do my best to assist you!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with GPay?",
+        "Are you cash only?",
+        "Do you accept Internet Banking"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, Gpay and Internet Banking"
+      ]
+    },
+    {
+      "tag": "house",
+      "patterns": [
+        "I'm interested in renting a house."
+      ],
+      "responses": [
+        "Great choice! Houses offer plenty of space and privacy. Could you please specify your preferred location, budget, and any specific requirements? I'll find some suitable options for you."
+      ]
+    },
+    {
+      "tag": "Apartment",
+      "patterns" : [
+        "Do you have any apartments available for rent?"
+      ],
+      "responses": [
+        "Absolutely! Apartments are a popular choice for their convenience and amenities. Could you let me know your desired location, budget, and any preferences for amenities like parking, laundry, or pet-friendliness? I'll start searching for available options."
+      ]
+    },
+    {
+      "tag": "Condo",
+      "patterns" : [
+        "I am interested in renting a Condo"
+      ],
+      "responses": [
+        "Condos offer a blend of apartment living with homeownership perks. To assist you better, could you specify your preferred location, budget, and any specific amenities or features you're looking for in a condo? I'll begin searching for suitable options."
+      ]
+    },
+    {
+      "tag": "Furnished vs. Unfurnished",
+      "patterns" : [
+        "Are your rental properties furnished?"
+      ],
+      "responses" : [
+        "We offer both furnished and unfurnished rental properties. Could you please specify your preference, along with your desired location, budget, and any specific amenities or features you're looking for? I'll find suitable options based on your preferences."
+      ]
+    },
+    {
+      "tag": "Roommate Matching",
+      "patterns" : [
+        "Do you help with roommate matching for rental properties?"
+      ],
+      "responses" : [
+        "Absolutely! We offer roommate matching services to help you find compatible roommates for shared rental properties. Could you please provide details about yourself, such as your lifestyle preferences, habits, and any specific requirements you have for a roommate? I'll assist you in finding suitable matches."
+      ]
+    }
+  ]
+}
